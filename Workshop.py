@@ -282,7 +282,7 @@ print(encrypted_text)'''
 # Using the same arguments, replace your caesar call with a call to encrypt. 
 # You'll see the same output on the terminal.
 
-def caesar(text, shift, encrypt=True):
+'''def caesar(text, shift, encrypt=True):
 
     if not isinstance(shift, int):
         return 'Shift must be an integer value.'
@@ -308,7 +308,7 @@ def decrypt(text, shift):
     return caesar(text, shift, False)
 
 encrypted_text = encrypt('freeCodeCamp', 3)
-print(encrypted_text)
+print(encrypted_text)'''
 
 # Now you're going to test the decrypt function. 
 # Replace the value assigned to encrypted_text with the following string, which represents a message to decrypt: Pbhentr vf sbhaq va hayvxryl cynprf..
